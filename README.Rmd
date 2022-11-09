@@ -44,6 +44,23 @@ This is a basic example which shows you how to solve a common problem:
 ```{r example}
 library(regexcite)
 ## basic example code
+new_name <- function(x, y) {
+  set.seed(12345) #set random seed
+  target_a ="^" #to be combined with target_n on line 58 in target_x
+  target_n = substr(x, 1, 1) #targets first character of input name
+  target_x = paste(target_a, target_n, sep = "") #combines ^ and first letter target, for use in line 58
+  target_y = y #year. Need a check for this to be between 1880-2021 inclusive
+  names <- babynames
+  names_smaller <- names[c(1,3)] #new dataframe of years and names only
+  names_year <- names_smaller |>
+    filter(year == target_y) #filter names_smaller by the target year
+  target <- names_year |>
+    filter(str_detect(name, target_x)) 
+#fiter target year dataframe by rows with names that start with the target character aka target_n (as formatte din target_y)
+  target_rand <- target[sample(1:nrow(target), 3),]
+  target_ret = list(target_rand$name)
+  return(target_ret)
+}
 ```
 
 What is special about using `README.Rmd` instead of just `README.md`? You can include R chunks like so:
