@@ -1,4 +1,4 @@
-#' Shrink Babynames
+#' Shrink Babynames:
 #' Filters Babynames dataframe to year/sex/name columns only
 #' @return dataframe
 #' @export
