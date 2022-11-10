@@ -1,8 +1,9 @@
 Package: new.name
-Title: What the Package Does (One Line, Title Case)
+Title: Find A New Name Using String Manipulation
 Version: 0.0.0.9000
-Authors@R: person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
+Authors@R: c(
+    person("Margaret", "Bassney", email = "mbassney@smith.edu", role = "aut"),
+    person("Mars", "Ikeda", email = "winston@rstudio.com", role = "cre"))
 Description: What the package does (one paragraph).
 License: MIT + file LICENSE
 Suggests: 
