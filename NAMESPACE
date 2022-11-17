@@ -2,5 +2,5 @@
 
 export(RanomName)
 export(newNames)
-import(babynames)
+import("babynames,")
 import(dplyr)
