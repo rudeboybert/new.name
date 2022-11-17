@@ -3,3 +3,4 @@
 export(RanomName)
 export(newNames)
 import(babynames)
+import(dplyr)
