@@ -1,4 +1,6 @@
-#' New Name: Returns three random baby names that are from a given year between 1880-2021
+#' New Name
+#'
+#' Returns three random baby names that are from a given year between 1880-2021
 #' and also start with the first letter of a user-inputted name.
 #'
 #' @param x Name, character
