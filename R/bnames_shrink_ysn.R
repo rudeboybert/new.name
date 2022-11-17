@@ -6,7 +6,7 @@
 #'
 #' @return list
 #' @export
-#' @import babynames
+#' @import babynames,
 #' dplyr
 #' @examples
 newNames <- function(x,y) {
