@@ -6,7 +6,7 @@
 #'
 #' @return list
 #' @export
-#' @import babynames
+#' @import babynames, dplyr
 #' @examples
 newNames <- function(x,y) {
   target_a = "^" #to be combined with target_n for regEx in target_x
