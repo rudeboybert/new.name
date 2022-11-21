@@ -1,9 +1,10 @@
 #' RandomName
 #'
-#' @return string: name
+#' @return character: name
 #' @export
 #'
 #' @examples
-RanomName<- function(){
+#' RandomName()
+RandomName<- function(){
   sample(x=unisex$name, size=1)
 }

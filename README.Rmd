@@ -45,3 +45,7 @@ Find a random name
 ```{r random name}
 RandomName()
 ```
+
+## Project Proposal for part III
+
+Work on this same package but add....
