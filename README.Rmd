@@ -25,7 +25,7 @@ This package is intended for anyone who needs help deciding a new name.
 
 ## Installation
 
-You can install the development version of new.name like so:
+You can install the development version of `new.name` like so:
 
 ``` r
 devtools::install_github("mars-ikeda/new.name")
